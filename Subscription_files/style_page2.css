@@ -1,0 +1,14 @@
+.field {
+    display: flex;
+    width: 300px;
+    height: 20px;
+}
+
+form { 
+    margin: 0 auto; 
+    width: 250px;
+}
+
+div > label {
+    background-color: red;
+}

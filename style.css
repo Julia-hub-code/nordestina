@@ -1,0 +1,84 @@
+body{
+    background-image: url("vecteezy_mother-working-from-home_1416246.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+
+
+}
+
+h1{
+    color: black;
+    font-family: 'Pacifico', cursive;
+    border-left-style: dotted;
+    border-right-style: dotted; 
+
+}
+
+section{
+    background: linear-gradient(to right, white, grey);
+    font-family: 'Dosis', sans-serif;
+    font-weight:bold;
+    color:black; 
+    border-style: outset;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 10px;
+    margin: 2cm;
+    margin-bottom: 0px;
+    margin-top: 1cm;
+    padding: 10px;
+    
+}
+
+h2{
+    font-weight:bold;
+    text-decoration: dashed;
+}
+
+img{
+    border-style: dashed;
+    border-width: 5px;
+    border-color: green;
+    border-radius: 10px;
+    margin: 2cm;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+
+}
+
+button{
+    background-color: #59aa50; 
+    color: black; 
+    border-radius: 5px;
+
+}
+
+#box1{
+    width: 250px;
+    height: 75px;
+    background: linear-gradient(to right, white, grey);
+    border-style: outset;
+    border-width: 5px;
+    border-color: black;
+    border-radius: 10px;
+    font-size: 17px;
+    text-align: center;
+    color: black;
+
+
+    animation: mySlide;
+    animation-play-state: inherit;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    animation-duration: 15s;
+
+}
+
+@keyframes mySlide {
+    form {margin-left:100%;}
+    to {margin-left: 100%;}
+    
+}
